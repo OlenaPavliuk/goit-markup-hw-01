@@ -1,0 +1,57 @@
+/*  текст #212121 */
+/* вспом. текст #757575 */
+/* белый #FFFFFF */
+/* синий #2196F3 */
+/* color: rgba(255, 255, 255, 0.6); */
+/* background: #F5F4FA; */
+/* основной background: #E5E5E5; */
+/* background: #2F303A; */
+
+:root {
+    --primary-text-color: #212121;
+    --title-text-color: #757575;
+    --accent-color: #2196F3;
+    --title-grey-text: gba(255, 255, 255, 0.6);
+    --primary-white-color: #FFFFFF;
+    --primary-black-color: #000000;
+    --primary-bgr-color: #E5E5E5;
+    --bgr-color: #F5F4FA;
+    --bgr-bl-color: #2F303A;
+
+}
+
+body {
+    background-color: var(--primary-white-color);
+    color: var(--primary-text-color);
+}
+
+.list {
+    list-style: none;
+}
+.logo {
+    color: var(--primary-black-color);
+}
+.logo-blue {
+    color: var(--accent-color);
+}
+.link {
+    color: var(--primary-black-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .link{
+    color: var(--title-text-color);
+}
+.text {
+    color: var(--title-text-color);
+}
+
+.footer-nav .adr-text {
+    color: var(--title-grey-text);
+}
